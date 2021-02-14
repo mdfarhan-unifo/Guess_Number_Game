@@ -1,5 +1,5 @@
-import random    #random method is use to take random number 
-winning_number=random.randint(0,100)   #randint is use to take random integer number with range 0 to 100
+import random                                                   #random method is use to take random number 
+winning_number=random.randint(0,100)                            #randint is use to take random integer number with range 0 to 100
 user_number=int(input("Guess a number between 0 and 100 :"))
 guess_num=0
 while True:
